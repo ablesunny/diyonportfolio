@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #050507;
+    color: #e2e8f0;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Film Noir Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050507;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e1e2c;
+  border-radius: 4px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Screenplay Styling Rules */
+.screenplay-font {
+  font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+}
+
+.screenplay-slugline {
+  font-family: 'Courier Prime', Courier, monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #f8fafc;
+}
+
+.screenplay-character {
+  font-family: 'Courier Prime', Courier, monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #d4af37;
+  margin-top: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.screenplay-parenthetical {
+  font-family: 'Courier Prime', Courier, monospace;
+  font-style: italic;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 0.9em;
+}
+
+.screenplay-dialogue {
+  font-family: 'Courier Prime', Courier, monospace;
+  max-width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+.screenplay-action {
+  font-family: 'Courier Prime', Courier, monospace;
+  line-height: 1.6;
+  color: #cbd5e1;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Subtle 35mm Vignette */
+.cinematic-vignette {
+  background: radial-gradient(circle at 50% 50%, rgba(5, 5, 7, 0) 50%, rgba(5, 5, 7, 0.85) 100%);
+  pointer-events: none;
+}
+
+/* Subtle Film Flicker */
+@keyframes subtle-film-flicker {
+  0% { opacity: 0.035; }
+  50% { opacity: 0.065; }
+  100% { opacity: 0.035; }
+}
+
+.film-grain-active {
+  animation: subtle-film-flicker 0.15s steps(3) infinite;
+}
+
+/* Gold Text Glow */
+.text-gold-glow {
+  text-shadow: 0 0 15px rgba(212, 175, 55, 0.4), 0 0 30px rgba(212, 175, 55, 0.2);
+}
+
+.text-gold-glow-subtle {
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.25);
+}
+
+/* Director Viewfinder Line Markers */
+.viewfinder-crosshair {
+  position: relative;
+}
+.viewfinder-crosshair::before,
+.viewfinder-crosshair::after {
+  content: '';
+  position: absolute;
+  background-color: rgba(212, 175, 55, 0.3);
+}

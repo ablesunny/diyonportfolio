@@ -1,6 +1,8 @@
 /**
- * Screenplay Samples formatted to industry standards (Courier Prime)
- * Includes Director's Commentary and Camera Blocking notes
+ * Screenplay Samples — Project Synopsis & Director's Notes
+ * Authentic formatting preserved; fabricated dialogue removed per author directive.
+ * The screenplay drawer now presents project overviews, thematic breakdowns,
+ * and directorial vision notes rather than invented script excerpts.
  */
 
 export const screenplaySamples = {
@@ -9,85 +11,39 @@ export const screenplaySamples = {
     englishTitle: 'HUNGER, MAN, JUSTICE',
     author: 'Diyon George',
     awardNote: 'Kannur University Arts Festival Award Winner (2025–26)',
-    pages: '22 Pages (Excerpt: Scene 4 & 5)',
-    logline: 'When an impoverished laborer is cornered by systemic apathy, his solitary quest for bread turns into a ferocious ethical confrontation with the state\'s machinery of justice.',
-    directorStatement: 'This scene is blocked with agonizing patience. We do not cut away from Raghavan\'s hand trembling on the damp bench. The sound of rain outside must overpower the magistrate\'s cold legal citations.',
+    pages: 'Full screenplay available on request',
+    logline: 'A student confronting caste-based and financial discrimination at the hands of his classmates is forced to face the accumulated trauma of his life—and challenge a system blinded by its own unwillingness to see injustice.',
+    directorStatement: 'This film demands unflinching patience with its subject. The camera must sit with the weight of discrimination, never flinching from the silence of institutional complicity. The black rope is not a metaphor to be explained—it is a visual truth the audience must feel.',
     scenes: [
       {
-        sceneNumber: '4',
-        slugline: 'INT. TALUK MAGISTRATE COURT - DUSK (MONSOON)',
-        directorNote: 'LENS: 50mm Prime. Low key. Natural amber desk lamp fighting against grey overcast monsoon light through barred windows.',
+        sceneNumber: 'Overview',
+        slugline: 'THEMATIC ARCHITECTURE — INSTITUTIONAL BLINDNESS & SOCIAL PREJUDICE',
+        directorNote: 'The visual language centres on isolation within crowded spaces. The protagonist exists among his classmates yet remains separated by invisible walls of caste and economic prejudice.',
         elements: [
-          { type: 'transition', text: 'FADE IN:' },
-          { type: 'slugline', text: 'INT. TALUK MAGISTRATE COURT - DUSK (MONSOON)' },
+          { type: 'transition', text: 'PROJECT OVERVIEW:' },
+          { type: 'slugline', text: 'THEMATIC ARCHITECTURE — INSTITUTIONAL BLINDNESS & SOCIAL PREJUDICE' },
           {
             type: 'action',
-            text: 'Rain lashes against the tall wooden windows of the colonial-era courtroom. Water leaks into a rusted tin can on the sill with a rhythmic, hollow CLINK.'
-          },
-          {
-            type: 'action',
-            text: 'RAGHAVAN (40s), skeletal frame wrapped in a drenched, faded cotton shirt, stands in the prisoner\'s dock. Water trickles from his hair into his hollow collarbone. His palms are stained with damp red mud.'
+            text: 'The film explores caste-based and financial discrimination experienced by a student at the hands of his classmates. A single incident brings the boy face-to-face with the accumulated trauma of his life, exposing the deeper wounds created by social prejudice and economic inequality.'
           },
           {
             type: 'action',
-            text: 'Across from him, MAGISTRATE SREEDHARAN (50s) adjusts gold-rimmed bifocals, turning the crinkled yellow page of a police FIR.'
-          },
-          { type: 'character', text: 'MAGISTRATE SREEDHARAN' },
-          { type: 'parenthetical', text: '(without looking up from the dossier)' },
-          {
-            type: 'dialogue',
-            text: 'IPC Section 379. Theft of state-allocated grain from the cooperative depot. The record states you broke the padlock with a railway ballast stone at three past midnight.'
+            text: 'At the heart of the story lies a system that should question injustice but instead remains silent, blinded by a black rope that symbolises its unwillingness to see the truth.'
           },
           {
             type: 'action',
-            text: 'Raghavan looks up. His eyes are not defiant; they are terrifyingly lucid with pure, primal exhaustion.'
+            text: 'The boy attempts to open the eyes of this system and challenge the silence that allows discrimination to persist.'
           },
-          { type: 'character', text: 'RAGHAVAN' },
-          { type: 'parenthetical', text: '(voice hoarse, stripped of fear)' },
+          { type: 'transition', text: '---' },
           {
-            type: 'dialogue',
-            text: 'Sir... the padlock gave way with one hit. Only rusted metal breaks that easily.'
+            type: 'action',
+            text: 'CENTRAL MOTIF: The Black Rope — representing the wilful blindness of institutions that refuse to acknowledge the discrimination occurring within their walls.'
           },
           {
             type: 'action',
-            text: 'The Magistrate pauses his pen mid-signature. The nib quivers.'
+            text: 'THEMATIC PILLARS: Caste-based prejudice • Financial discrimination • Accumulated psychological trauma • Institutional silence • The courage to confront systemic injustice.'
           },
-          { type: 'character', text: 'MAGISTRATE SREEDHARAN' },
-          {
-            type: 'dialogue',
-            text: 'The law does not measure the rust on locks, Raghavan. It measures the boundary between what belongs to the state and what belongs to you.'
-          },
-          { type: 'character', text: 'RAGHAVAN' },
-          { type: 'parenthetical', text: '(stepping closer to the wooden rail)' },
-          {
-            type: 'dialogue',
-            text: 'And when the child in the hut stops breathing from four days without starch... whose boundary is that, Sir? Is that the state\'s or God\'s?'
-          },
-          {
-            type: 'action',
-            text: 'Silence grips the courtroom. Even the constable standing at attention lowers his gaze to the wet floorboards.'
-          },
-          {
-            type: 'action',
-            text: 'SLOW PUSH IN on Raghavan\'s eyes. In them, hunger is no longer a crime—it has transformed into an indictment of the entire room.'
-          },
-          { type: 'transition', text: 'CUT TO:' }
-        ]
-      },
-      {
-        sceneNumber: '5',
-        slugline: 'EXT. RIVERBANK HIGHWAY - NIGHT',
-        directorNote: 'LENS: 85mm Anamorphic. Extreme wide. The solitary police jeep headlights slice through the impenetrable deluge.',
-        elements: [
-          { type: 'slugline', text: 'EXT. RIVERBANK HIGHWAY - NIGHT' },
-          {
-            type: 'action',
-            text: 'Torrential rain sweeps across the swollen river. The red tail-lights of the escort vehicle smear across the wet asphalt like streaks of fresh paint.'
-          },
-          {
-            type: 'action',
-            text: 'Inside the vehicle, Raghavan rests his forehead against the vibration of the rain-streaked window. A single bread crumb remains pressed into the crevice of his thumbnail.'
-          }
+          { type: 'transition', text: 'FULL SCREENPLAY AVAILABLE UPON REQUEST' }
         ]
       }
     ]
@@ -96,51 +52,40 @@ export const screenplaySamples = {
     title: 'ലെഗ് പീസ്',
     englishTitle: 'LEG PIECE',
     author: 'Diyon George',
-    awardNote: 'Political Satire Repertoire',
-    pages: '18 Pages (Excerpt: Scene 2)',
-    logline: 'An opulent political committee banquet devolves into a vicious ideological battlefield over a single missing piece of chicken.',
-    directorStatement: 'Play this with the deadpan gravity of an international geopolitical summit. The more serious the actors treat the chicken leg, the sharper the political absurdity cuts.',
+    awardNote: 'Sarcastic Political Satire',
+    pages: 'Full screenplay available on request',
+    logline: 'A biting allegory in which the classroom becomes a chicken farm and multinational corporations its customers—exposing how globalisation reshapes education into a market-driven production line.',
+    directorStatement: 'The allegory must be played with absolute conviction. Students-as-chickens is not a joke—it is a diagnosis. The institutional management must be filmed with the clinical detachment of a processing plant supervisor inspecting product quality. The satire cuts deepest when presented with complete sincerity.',
     scenes: [
       {
-        sceneNumber: '2',
-        slugline: 'INT. PARTY HEADQUARTERS - PRIVATE DINING SALON - NIGHT',
-        directorNote: 'LENS: 28mm Wide. Dynamic framing, Sorkin-style overlapping cues, fast pan whips across the silver buffet platters.',
+        sceneNumber: 'Overview',
+        slugline: 'THEMATIC ARCHITECTURE — EDUCATION AS PRODUCTION LINE',
+        directorNote: 'The visual language draws from industrial processing aesthetics—sterile lighting, clinical framing, assembly-line choreography applied to classroom settings.',
         elements: [
-          { type: 'transition', text: 'FADE IN:' },
-          { type: 'slugline', text: 'INT. PARTY HEADQUARTERS - PRIVATE DINING SALON - NIGHT' },
+          { type: 'transition', text: 'PROJECT OVERVIEW:' },
+          { type: 'slugline', text: 'THEMATIC ARCHITECTURE — EDUCATION AS PRODUCTION LINE' },
           {
             type: 'action',
-            text: 'A mahogany banquet table groans under heavy silver tureens of biryani. A haze of hot spice and expensive pipe tobacco hangs beneath the crystal chandelier.'
-          },
-          {
-            type: 'action',
-            text: 'DISTRICT SECRETARY ROY (50s, silk jubba, predatory smile) stands by the central bowl, spoon hovering like a hawk.'
-          },
-          { type: 'character', text: 'SECRETARY ROY' },
-          { type: 'parenthetical', text: '(glancing suspiciously around the room)' },
-          {
-            type: 'dialogue',
-            text: 'Comrades... thirty plates were ordered. Thirty drumsticks were invoiced. Why do I see twenty-nine?'
+            text: 'The film examines how globalisation influences and reshapes the education system through an allegory in which the classroom becomes a chicken farm and multinational corporations become its customers.'
           },
           {
             type: 'action',
-            text: 'YOUTH WING CONVENER SHIBU (30s) freezes with a linen napkin midway to his mouth.'
-          },
-          { type: 'character', text: 'SHIBU' },
-          {
-            type: 'dialogue',
-            text: 'Royetta... it\'s poultry. In the dialectics of catering, discrepancies are statistically inevitable.'
-          },
-          { type: 'character', text: 'SECRETARY ROY' },
-          { type: 'parenthetical', text: '(slamming the silver ladle onto the porcelain)' },
-          {
-            type: 'dialogue',
-            text: 'Statistically inevitable?! That missing leg was seasoned with the tax money of our ward committee! Who appropriated the proletariat\'s protein?!'
+            text: 'Students are represented as chickens, while educational institutions and their management act as suppliers who select, process, and prepare students according to the demands of corporate customers.'
           },
           {
             type: 'action',
-            text: 'Every fork drops in unison. The room enters DEFCON 1.'
-          }
+            text: 'The system evaluates students according to market requirements, reducing education to a production process in which individuals are shaped, packaged, and delivered to meet corporate expectations.'
+          },
+          { type: 'transition', text: '---' },
+          {
+            type: 'action',
+            text: 'CENTRAL ALLEGORY: The Chicken Farm — where the classroom mirrors a production facility, students are livestock, institutions are suppliers, and MNCs are the demanding customers driving the entire system.'
+          },
+          {
+            type: 'action',
+            text: 'THEMATIC PILLARS: Commercialisation of education • Commodification of students • Corporate influence on curriculum • Market-driven institutional priorities • The erosion of individual identity within industrial education.'
+          },
+          { type: 'transition', text: 'FULL SCREENPLAY AVAILABLE UPON REQUEST' }
         ]
       }
     ]
@@ -150,43 +95,39 @@ export const screenplaySamples = {
     englishTitle: '5 SYMBOLS',
     author: 'Diyon George',
     awardNote: 'Psychological Mystery Showcase',
-    pages: '110 Pages (Excerpt: Act I Inciting Incident)',
-    logline: 'An introspective investigator tracing five cryptic occult sigils etched across mist-covered highland estates discovers they chart his own unatoned sins.',
-    directorStatement: 'The soundscape here is paramount. The silence between footsteps must feel heavier than dialogue. Visual contrast is dialed to extreme obsidian depth.',
+    pages: 'Full screenplay available on request',
+    logline: 'When a senior Indian embassy officer and five others are found dead at the same location, their bodies arranged within a mysterious symbol, an investigation unfolds to uncover the hidden connection between the killings.',
+    directorStatement: 'The mystery must unfold with surgical restraint. Every frame should raise a question; no frame should provide a premature answer. The symbol is the gravitational centre of the narrative—the audience must feel its weight without fully understanding its meaning until the story chooses to reveal it.',
     scenes: [
       {
-        sceneNumber: '7',
-        slugline: 'INT. ABANDONED PLANTATION BUNGALOW - ATTIC - MIDNIGHT',
-        directorNote: 'LENS: 35mm Prime. Flashlight beam is the sole light source. Slow panning reveal of the charred wall carving.',
+        sceneNumber: 'Overview',
+        slugline: 'THEMATIC ARCHITECTURE — THE SYMBOL & THE INVESTIGATION',
+        directorNote: 'Visual emphasis on the enigmatic arrangement of the victims. Cold, clinical investigation lighting contrasted with the unsettling stillness of the crime scene composition.',
         elements: [
-          { type: 'transition', text: 'FADE IN:' },
-          { type: 'slugline', text: 'INT. ABANDONED PLANTATION BUNGALOW - ATTIC - MIDNIGHT' },
+          { type: 'transition', text: 'PROJECT OVERVIEW:' },
+          { type: 'slugline', text: 'THEMATIC ARCHITECTURE — THE SYMBOL & THE INVESTIGATION' },
           {
             type: 'action',
-            text: 'Cobwebs hang like torn lace from rotting teak rafters. Outside, rain pounds against corrugated iron.'
+            text: 'The story begins with the death of a senior Indian embassy officer. On the same day, at the same location, five additional people are murdered.'
           },
           {
             type: 'action',
-            text: 'INSPECTOR ANAND (38) ducks under a sagging beam. The tight beam of his tactical flashlight cuts through suspended dust motes.'
+            text: 'The victims are discovered arranged and marked within a particular symbol, creating an unsettling pattern that raises questions about the connection between the killings.'
           },
           {
             type: 'action',
-            text: 'He sweeps the light across the far cedar wall. It stops.'
+            text: 'The narrative follows the investigation into these deaths, gradually exploring the mystery surrounding the symbol, the circumstances of the murders, and the hidden truth behind the connected incidents.'
+          },
+          { type: 'transition', text: '---' },
+          {
+            type: 'action',
+            text: 'CENTRAL MYSTERY: The symbolic arrangement of the six victims—a pattern that demands interpretation but resists easy answers, drawing the investigation deeper into dangerous territory.'
           },
           {
             type: 'action',
-            text: 'Carved into the wood with surgical precision: A coiled ouroboros enclosing five distinct geometric runes. In the center, fresh sap—or dark blood—still weeps from the fifth cut.'
+            text: 'THEMATIC PILLARS: Mysterious circumstances • Symbolic victim arrangement • The investigative journey • Suspense surrounding the underlying connection • Hidden truths revealed through persistent inquiry.'
           },
-          { type: 'character', text: 'INSPECTOR ANAND' },
-          { type: 'parenthetical', text: '(whispering to the empty dark)' },
-          {
-            type: 'dialogue',
-            text: 'The fifth one wasn\'t supposed to be ready until tomorrow.'
-          },
-          {
-            type: 'action',
-            text: 'From the shadows behind the water cistern, the faint, deliberate CLICK of an antique pocket watch.'
-          }
+          { type: 'transition', text: 'FULL SCREENPLAY AVAILABLE UPON REQUEST' }
         ]
       }
     ]

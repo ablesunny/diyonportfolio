@@ -62,19 +62,19 @@ export const directorBio = {
       year: '2025–2026',
       badge: 'Award Milestone',
       title: 'Kannur University Arts Festival Victory',
-      detail: 'Won prestigious acclaim for the short film \'വിശപ്പ്, മനിതൻ, നീതി\' (Hunger, Man, Justice), earning high jury praise for stark social realism and directorial restraint.'
+      detail: 'Won prestigious acclaim for the short film \'വിശപ്പ്, മനിതൻ, നീതി\' (Hunger, Man, Justice), a powerful exploration of caste-based and financial discrimination within educational institutions, and the struggle to challenge a system blinded by its own silence.'
     },
     {
       year: '2024',
       badge: 'Screenplay Polish',
       title: 'Development of \'Leg Piece\' & Political Satire Focus',
-      detail: 'Crafted biting satirical treatments probing systemic power structures, political banquets, and regional institutional ironies.'
+      detail: 'Crafted biting satirical treatment examining how globalisation reshapes education through the allegory of the classroom as a chicken farm, with students commodified to meet corporate expectations.'
     },
     {
       year: '2023–2024',
       badge: 'Feature Architecture',
       title: 'Architecting \'5 Symbols\' Psychological Thriller',
-      detail: 'Penned feature-length puzzle thriller exploring guilt, highland isolation, and non-linear narrative architecture.'
+      detail: 'Penned feature-length mystery thriller following the investigation into the death of a senior embassy officer and five others, their bodies discovered arranged within a mysterious symbol.'
     },
     {
       year: '2019–2022',

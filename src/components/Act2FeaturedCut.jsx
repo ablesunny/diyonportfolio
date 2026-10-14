@@ -111,7 +111,7 @@ export default function Act2FeaturedCut({ onOpenScreener, onOpenScriptDrawer, on
                   </div>
                   <div className="text-right">
                     <span className="block text-gold font-bold">DIR. DIYON GEORGE</span>
-                    <span>TALUK / NOIR DRAMA</span>
+                    <span>SOCIAL JUSTICE DRAMA</span>
                   </div>
                 </div>
 
@@ -168,7 +168,7 @@ export default function Act2FeaturedCut({ onOpenScreener, onOpenScriptDrawer, on
                   Kannur University Arts Festival Winner (2025–26)
                 </h4>
                 <p className="font-sans text-xs text-script-muted mt-0.5">
-                  Honored for directorial clarity, stark sociopolitical realism, and gripping screenplay execution.
+                  Honored for its unflinching portrayal of caste-based discrimination, institutional blindness, and the courage to challenge systemic silence.
                 </p>
               </div>
             </div>
@@ -221,7 +221,7 @@ export default function Act2FeaturedCut({ onOpenScreener, onOpenScriptDrawer, on
                   BLOCKING
                 </span>
                 <p className="text-xs text-script-text/80 leading-snug">
-                  Claustrophobic proximity on laborer; towering low angles for authority.
+                  Claustrophobic proximity on the student; isolating wide shots of alienation among classmates.
                 </p>
               </div>
 
@@ -230,7 +230,7 @@ export default function Act2FeaturedCut({ onOpenScreener, onOpenScriptDrawer, on
                   SOUND CADENCE
                 </span>
                 <p className="text-xs text-script-text/80 leading-snug">
-                  Monsoon rain hum, ragged breath, hollow courtroom gavel reverberations.
+                  Oppressive silence, amplified whispers, the weight of unspoken prejudice.
                 </p>
               </div>
             </div>

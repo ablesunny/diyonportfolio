@@ -39,6 +39,7 @@ An award-winning, festival-grade web portfolio application created for **Diyon G
      2. `'Leg Piece'` (Sarcastic Political / Satire)
      3. `'5 Symbols'` (Psychological Mystery Thriller)
    - Real-time moodboard color swatches, shot-planning notes, and complete treatment dossiers.
+   - **Previous Works**: Dedicated archival link to Diyon George's external Google Drive repository of earlier works and creative materials.
 
 4. **ACT IV: THE CHRONICLE (Discipline & Rigor)**
    - 6+ years narrative experience and timeline.

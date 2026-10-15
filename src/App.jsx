@@ -7,6 +7,7 @@ import Act2FeaturedCut from './components/Act2FeaturedCut';
 import Act3GenreRepertoire from './components/Act3GenreRepertoire';
 import Act4Chronicle from './components/Act4Chronicle';
 import Act5RollCredits from './components/Act5RollCredits';
+import PreviousWorks from './components/PreviousWorks';
 import ScreenplayDrawer from './components/ScreenplayDrawer';
 import ScreenerModal from './components/ScreenerModal';
 import ProjectPitchModal from './components/ProjectPitchModal';
@@ -121,6 +122,9 @@ export default function App() {
           onOpenScriptDrawer={handleOpenScriptDrawer}
           onOpenDetail={handleOpenDetail}
         />
+
+        {/* PREVIOUS WORKS REPOSITORY */}
+        <PreviousWorks />
 
         {/* ACT IV: THE CHRONICLE */}
         <Act4Chronicle
